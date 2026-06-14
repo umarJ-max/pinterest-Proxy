@@ -1,7 +1,3 @@
-// api/pinterest.js  — CommonJS, Vercel Node.js serverless
-// Ported from app.py: tries Pinterest's internal PinResource API first,
-// falls back to HTML scraping with same patterns as the working local version.
-
 module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Content-Type", "application/json");
